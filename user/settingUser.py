@@ -3,12 +3,12 @@ import starkbank
 
 class SettingUserClass:
     # This is only an example of a private key content. You should use your own key.
-    private_key_content = ""
+    private_key_content = "your privateKey here"
 
     # for project users:
     user = starkbank.Project(
         environment="sandbox",
-        id="4958663127072768",
+        id="your idProject here",
         private_key=private_key_content
     )
 
